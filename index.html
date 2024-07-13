@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Register ot Ruhich</title>
+</head>
+
+<body>
+
+    <div class="container" id="container">
+        <div class="form-container sign-up">
+            <form>
+                <h1>Создать Аккаунт</h1>
+                <div class="social-icons">
+                    <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+                <span>или используйте свой адрес электронной почты для регистрации</span>
+                <input type="text" placeholder="Имя">
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Пароль">
+                <button>СОЗДАТЬ</button>
+            </form>
+        </div>
+        <div class="form-container sign-in">
+            <form>
+                <h1>Войти в Систему</h1>
+                <div class="social-icons">
+                    <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+                <span>или используйте свой пароль электронной почты</span>
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Пароль">
+                <a href="#">Забыли пароль?</a>
+                <button>ВОЙТИ</button>
+            </form>
+        </div>
+        <div class="toggle-container">
+            <div class="toggle">
+                <div class="toggle-panel toggle-left">
+                    <h1>Приветствуем вас!</h1>
+                    <p>Зарегистрируйтесь, используя свои личные данные, чтобы использовать все функции сайта</p>
+                    <button class="hidden" id="login">Войти</button>
+                </div>
+                <div class="toggle-panel toggle-right">
+                    <h1>С Возвращением!</h1>
+                    <p>Введите свои персональные данные, чтобы пользоваться всеми функциями сайта</p>
+                    <button class="hidden" id="register">Зарегистрироваться</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
